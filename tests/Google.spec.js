@@ -8,6 +8,6 @@ test('Search box visible', async ({ page }) => {
 
     await expect(searchBox).toBeVisible();
 
-      await expect(searchBox).not.toBeEnabled();
+      await expect(searchBox).toBeEnabled();
 
 });
